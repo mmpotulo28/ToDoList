@@ -1,0 +1,75 @@
+#todo-container {
+  display: block;
+  background-color: hotpink;
+}
+
+#todo-list {
+  display: block;
+  background-color: grey;
+  color: turquoise;
+  font-size: 15px;
+  font-family: monospace;
+  width: fit-content;
+  padding: 20px 30px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#todo-list h1 {
+  border-bottom: 1px solid turquoise;
+  width: 100%;
+  /* text-decoration: underline; */
+}
+
+.todo-items {
+  display: list-item;
+  list-style: number;
+  margin-left: 20px;
+}
+
+#form-container {
+  display: block;
+  background-color: black;
+  margin: 40px 0;
+  padding: 20px;
+  color: beige;
+}
+
+#to-do-form {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  border: 5px solid purple;
+  padding: 30px;
+}
+
+#to-do-form input{
+    border-radius: 20px;
+    font-size: 21px;
+    padding: 5px;
+}
+
+#to-do-form input:hover, #to-do-form input:focus{
+    background-color: purple;
+    color: white;
+    outline: none;
+    
+
+}
+
+#to-do-form button{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: purple;
+    color: beige;
+}
+
+#to-do-form button:hover{
+    background-color: turquoise;
+    color: black;
+}
+
